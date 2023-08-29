@@ -5,10 +5,10 @@
     font-size: 20px;
     padding-left: 20px;
     padding-right: 20px;
+    padding-bottom: 20px;
     height:70px ;
     
 }
-
 
 
 #date-button{
@@ -17,4 +17,20 @@
     font-size: 15px;
     background-color: black;
     color: white;
+}
+
+#list {
+    list-style: none;
+    padding-left: 10px;
+    position: relative;
+    color:darkcyan;
+    font-weight: bolder;
+}
+
+#completed-list {
+    list-style:square;
+    padding-left: 10px;
+    position: relative;
+
+    font-weight: bolder;
 }
