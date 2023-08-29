@@ -12,7 +12,11 @@ const createAndAppendListItem = (content) => {
     list.appendChild(newListItem);
     const deleteButton = document.createElement("button");
     deleteButton.innerText = "Delete";
-    list.appendChild()
+    list.appendChild(deleteButton);
+    deleteButton.onclick = () => {
+        list.removeChild(newListItem);
+        list.removeChild(deleteButton);
+    }
 
 }
 
