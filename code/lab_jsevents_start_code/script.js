@@ -9,6 +9,7 @@ const dateButton = document.querySelector("#date-button");
 // date button
 dateButton.addEventListener("click",()=>{
     dateButton.innerText = Date();
+    setTimeout(()=> {dateButton.innerText = "Today's Date";},5000);
 })
 
 
