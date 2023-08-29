@@ -1,11 +1,18 @@
 const enter = document.querySelector("#enter");
 const input = document.querySelector("#new-todo");
 const list = document.querySelector("#list");
+const dateButton = document.querySelector("#date-button");
 
 // input.addEventListener("input", (event) => {
 // })
 
+// date button
+dateButton.addEventListener("click",()=>{
+    dateButton.innerText = Date();
+})
 
+
+// toDo list
 const createAndAppendListItem = (content) => {
     const newListItem = document.createElement("li");
     newListItem.innerText = content;

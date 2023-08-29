@@ -1,0 +1,10 @@
+.header{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-size: 20px;
+}
+
+#date-button{
+    height: 50px;
+    width: 170px;
+}
