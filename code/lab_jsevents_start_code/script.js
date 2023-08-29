@@ -13,11 +13,13 @@ const createAndAppendListItem = (content) => {
     list.appendChild(newListItem);
 }
 
+newInput = null;
 input.addEventListener("input", (event) => {
-    console.log(event.target.value);
+    newInput = event.target.value;
 })
 
-// enter.addEventListener("click", (input) => {
-//     const newInput = input.target.value;
-//     createAndAppendListItem(newInput);
-// })
+enter.addEventListener("click", (input) => {
+    
+
+    createAndAppendListItem(newInput);
+})
